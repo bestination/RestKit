@@ -728,10 +728,10 @@
 		49A66B1314CF03CA00A6F062 /* RKXMLParserXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 49A66B1014CF03CA00A6F062 /* RKXMLParserXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49A66B1414CF03CA00A6F062 /* RKXMLParserXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A66B1114CF03CA00A6F062 /* RKXMLParserXMLReader.m */; };
 		49A66B1514CF03CA00A6F062 /* RKXMLParserXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A66B1114CF03CA00A6F062 /* RKXMLParserXMLReader.m */; };
-		49D2759D14C9EF1E0090845D /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2759914C9EF1E0090845D /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49D2759E14C9EF1E0090845D /* ISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2759914C9EF1E0090845D /* ISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49D2759F14C9EF1E0090845D /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2759A14C9EF1E0090845D /* ISO8601DateFormatter.m */; };
-		49D275A114C9EF1E0090845D /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2759A14C9EF1E0090845D /* ISO8601DateFormatter.m */; };
+		49D2759D14C9EF1E0090845D /* ISO8601DateFormatterRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2759914C9EF1E0090845D /* ISO8601DateFormatterRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D2759E14C9EF1E0090845D /* ISO8601DateFormatterRK.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D2759914C9EF1E0090845D /* ISO8601DateFormatterRK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D2759F14C9EF1E0090845D /* ISO8601DateFormatterRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2759A14C9EF1E0090845D /* ISO8601DateFormatterRK.m */; };
+		49D275A114C9EF1E0090845D /* ISO8601DateFormatterRK.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2759A14C9EF1E0090845D /* ISO8601DateFormatterRK.m */; };
 		49D275AD14C9F3020090845D /* RKISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D275AB14C9F3020090845D /* RKISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D275AE14C9F3020090845D /* RKISO8601DateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 49D275AB14C9F3020090845D /* RKISO8601DateFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49D275AF14C9F3020090845D /* RKISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D275AC14C9F3020090845D /* RKISO8601DateFormatter.m */; };
@@ -1210,8 +1210,8 @@
 		49A66B0A14CEFB0400A6F062 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XMLReader.m; path = XMLReader/XMLReader.m; sourceTree = "<group>"; };
 		49A66B1014CF03CA00A6F062 /* RKXMLParserXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKXMLParserXMLReader.h; sourceTree = "<group>"; };
 		49A66B1114CF03CA00A6F062 /* RKXMLParserXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKXMLParserXMLReader.m; sourceTree = "<group>"; };
-		49D2759914C9EF1E0090845D /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatter.h; path = iso8601parser/ISO8601DateFormatter.h; sourceTree = "<group>"; };
-		49D2759A14C9EF1E0090845D /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatter.m; path = iso8601parser/ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		49D2759914C9EF1E0090845D /* ISO8601DateFormatterRK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISO8601DateFormatterRK.h; path = iso8601parser/ISO8601DateFormatterRK.h; sourceTree = "<group>"; };
+		49D2759A14C9EF1E0090845D /* ISO8601DateFormatterRK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISO8601DateFormatterRK.m; path = iso8601parser/ISO8601DateFormatterRK.m; sourceTree = "<group>"; };
 		49D2759B14C9EF1E0090845D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = iso8601parser/LICENSE.txt; sourceTree = "<group>"; };
 		49D2759C14C9EF1E0090845D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = iso8601parser/README.txt; sourceTree = "<group>"; };
 		49D275AB14C9F3020090845D /* RKISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKISO8601DateFormatter.h; sourceTree = "<group>"; };
@@ -2124,8 +2124,8 @@
 		49D2759714C9E83E0090845D /* iso8601parser */ = {
 			isa = PBXGroup;
 			children = (
-				49D2759914C9EF1E0090845D /* ISO8601DateFormatter.h */,
-				49D2759A14C9EF1E0090845D /* ISO8601DateFormatter.m */,
+				49D2759914C9EF1E0090845D /* ISO8601DateFormatterRK.h */,
+				49D2759A14C9EF1E0090845D /* ISO8601DateFormatterRK.m */,
 				49D2759B14C9EF1E0090845D /* LICENSE.txt */,
 				49D2759C14C9EF1E0090845D /* README.txt */,
 			);
@@ -2221,7 +2221,7 @@
 				25B408261491CDDC00F21111 /* RKDirectory.h in Headers */,
 				2513504E14B8FE6B00A7E893 /* RKConfigurationDelegate.h in Headers */,
 				250DF22A14C5190E0001DEFA /* RKOrderedDictionary.h in Headers */,
-				49D2759D14C9EF1E0090845D /* ISO8601DateFormatter.h in Headers */,
+				49D2759D14C9EF1E0090845D /* ISO8601DateFormatterRK.h in Headers */,
 				49A66B0C14CEFB0400A6F062 /* XMLReader.h in Headers */,
 				250DF25F14C680F90001DEFA /* RKObjectMappingProvider+Contexts.h in Headers */,
 				49D275AD14C9F3020090845D /* RKISO8601DateFormatter.h in Headers */,
@@ -2361,7 +2361,7 @@
 				254A62BA14AD544200939BEE /* RKObjectPaginator.h in Headers */,
 				250DF22B14C5190E0001DEFA /* RKOrderedDictionary.h in Headers */,
 				49A66B1314CF03CA00A6F062 /* RKXMLParserXMLReader.h in Headers */,
-				49D2759E14C9EF1E0090845D /* ISO8601DateFormatter.h in Headers */,
+				49D2759E14C9EF1E0090845D /* ISO8601DateFormatterRK.h in Headers */,
 				250DF26014C680F90001DEFA /* RKObjectMappingProvider+Contexts.h in Headers */,
 				49D275AE14C9F3020090845D /* RKISO8601DateFormatter.h in Headers */,
 				25B6E95614CF795D00B1E881 /* RKErrors.h in Headers */,
@@ -2758,7 +2758,7 @@
 				25B408281491CDDC00F21111 /* RKDirectory.m in Sources */,
 				254A62BB14AD544200939BEE /* RKObjectPaginator.m in Sources */,
 				250DF22C14C5190E0001DEFA /* RKOrderedDictionary.m in Sources */,
-				49D2759F14C9EF1E0090845D /* ISO8601DateFormatter.m in Sources */,
+				49D2759F14C9EF1E0090845D /* ISO8601DateFormatterRK.m in Sources */,
 				49D275AF14C9F3020090845D /* RKISO8601DateFormatter.m in Sources */,
 				25B6E92014CF778D00B1E881 /* RKAbstractTableController.m in Sources */,
 				25B6E92714CF778D00B1E881 /* RKControlTableItem.m in Sources */,
@@ -2959,7 +2959,7 @@
 				25B408291491CDDC00F21111 /* RKDirectory.m in Sources */,
 				254A62BC14AD544200939BEE /* RKObjectPaginator.m in Sources */,
 				250DF22D14C5190E0001DEFA /* RKOrderedDictionary.m in Sources */,
-				49D275A114C9EF1E0090845D /* ISO8601DateFormatter.m in Sources */,
+				49D275A114C9EF1E0090845D /* ISO8601DateFormatterRK.m in Sources */,
 				49D275B014C9F3020090845D /* RKISO8601DateFormatter.m in Sources */,
 				25B6E95914CF7A1C00B1E881 /* RKErrors.m in Sources */,
 				25B6E95F14CF7E3C00B1E881 /* RKDynamicObjectMappingMatcher.m in Sources */,

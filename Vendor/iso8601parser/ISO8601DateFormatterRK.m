@@ -5,7 +5,7 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "ISO8601DateFormatter.h"
+#import "ISO8601DateFormatterRK.h"
 #import "RKLog.h"
 
 // Set Logging Component
@@ -15,7 +15,7 @@
 #ifndef DEFAULT_TIME_SEPARATOR
 #	define DEFAULT_TIME_SEPARATOR ':'
 #endif
-unichar ISO8601DefaultTimeSeparatorCharacter = DEFAULT_TIME_SEPARATOR;
+unichar ISO8601DefaultTimeSeparatorCharacterRK = DEFAULT_TIME_SEPARATOR;
 
 //Unicode date formats.
 #define ISO_CALENDAR_DATE_FORMAT @"yyyy-MM-dd"
@@ -27,7 +27,7 @@ unichar ISO8601DefaultTimeSeparatorCharacter = DEFAULT_TIME_SEPARATOR;
 #define ISO_TIMEZONE_UTC_FORMAT @"Z"
 #define ISO_TIMEZONE_OFFSET_FORMAT @"%+.2d%.2d"
 
-@interface ISO8601DateFormatter(UnparsingPrivate)
+@interface ISO8601DateFormatterRK(UnparsingPrivate)
 
 - (NSString *) replaceColonsInString:(NSString *)timeFormat withTimeSeparator:(unichar)timeSep;
 
@@ -38,7 +38,7 @@ unichar ISO8601DefaultTimeSeparatorCharacter = DEFAULT_TIME_SEPARATOR;
 
 static NSMutableDictionary *timeZonesByOffset;
 
-@implementation ISO8601DateFormatter
+@implementation ISO8601DateFormatterRK
 
 + (void) initialize {
 	if (!timeZonesByOffset) {
@@ -65,7 +65,7 @@ static NSMutableDictionary *timeZonesByOffset;
 		unparsingCalendar = [[self makeCalendarWithDesiredConfiguration] retain];
         
 		format = ISO8601DateFormatCalendar;
-		timeSeparator = ISO8601DefaultTimeSeparatorCharacter;
+		timeSeparator = ISO8601DefaultTimeSeparatorCharacterRK;
 		includeTime = NO;
 		parsesStrictly = NO;
 	}
@@ -187,7 +187,7 @@ static BOOL is_leap_year(NSUInteger year);
 	BOOL strict = self.parsesStrictly;
 	unichar timeSep = self.timeSeparator;
     
-	if (strict) timeSep = ISO8601DefaultTimeSeparatorCharacter;
+	if (strict) timeSep = ISO8601DefaultTimeSeparatorCharacterRK;
 	NSAssert(timeSep != '\0', @"Time separator must not be NUL.");
     
 	BOOL isValidDate = ([string length] > 0U);
@@ -785,7 +785,7 @@ static BOOL is_leap_year(NSUInteger year);
 	if(includeTime) {
 		NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
 		unichar timeSep = self.timeSeparator;
-		if (!timeSep) timeSep = ISO8601DefaultTimeSeparatorCharacter;
+		if (!timeSep) timeSep = ISO8601DefaultTimeSeparatorCharacterRK;
 		formatter.dateFormat = [self replaceColonsInString:ISO_TIME_WITH_TIMEZONE_FORMAT withTimeSeparator:timeSep];
         
 		timeString = [formatter stringForObjectValue:date];

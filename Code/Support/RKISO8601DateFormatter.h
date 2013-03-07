@@ -6,8 +6,8 @@
 //  Copyright (c) 2009-2012 RestKit. All rights reserved.
 //
 
-#import "ISO8601DateFormatter.h"
+#import "ISO8601DateFormatterRK.h"
 
-@interface RKISO8601DateFormatter : ISO8601DateFormatter
+@interface RKISO8601DateFormatter : ISO8601DateFormatterRK
 
 @end
